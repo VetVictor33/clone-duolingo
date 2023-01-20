@@ -1,0 +1,102 @@
+.presentation-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 669px;
+    background-image: url(../../assets/stars-backgrund.png);
+}
+
+.begin-section {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 150px;
+}
+
+.begin-img-div {
+    height: 360px;
+    width: 360px;
+    background-image: url(https://d35aaqx5ub95lt.cloudfront.net/images/331a32943ff73be28537dfc7469d5639.svg);
+}
+
+.begin-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 530px;
+}
+
+.begin-div h1 {
+    font-size: 32px;
+    text-align: center;
+    color: #E8E6E3;
+    margin-bottom: 40px;
+
+}
+
+.begin-div .color-button,
+.begin-div .no-color-button,
+.footer-header button {
+    width: 320px;
+    height: 46px;
+    color: #E8E6E3;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    border: 0;
+    border-bottom: solid 3px #39812e6c;
+
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.begin-div .color-button,
+.footer-header button {
+    background-color: #46A302;
+}
+
+.begin-div .no-color-button {
+    background-color: #45a30200;
+    border: solid 1px #06021f6c;
+    border-bottom: solid 3px #06021f6c;
+}
+
+
+
+.idiom-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(28, 66, 115);
+    width: 100%;
+    height: 74px;
+}
+
+.idiom-div ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.idiom-div a {
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.idiom-div span {
+    padding-top: 3px;
+    padding-left: 10px;
+}
+
+.arrow-icon {
+    margin: 0 20px;
+}
+
+.right-icon {
+    transform: scaleX(-1);
+}
