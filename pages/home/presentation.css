@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: space-between;
     width: 100%;
-    height: 669px;
+    height: 93vh;
     background-image: url(../../assets/stars-backgrund.png);
 }
 
@@ -11,13 +11,14 @@
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     margin-top: 150px;
 }
 
 .begin-img-div {
     height: 360px;
     width: 360px;
+    margin-right: 250px;
     background-image: url(https://d35aaqx5ub95lt.cloudfront.net/images/331a32943ff73be28537dfc7469d5639.svg);
 }
 
