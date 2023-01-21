@@ -64,15 +64,16 @@ main section {
 }
 
 
+
 .love-img-div {
-    width: 60%;
+    width: 250px;
     height: 200px;
     background-image: url(https://d35aaqx5ub95lt.cloudfront.net/images/3816ddfd0658efd7bb713fd823053b82.svg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
 
-    margin: auto;
+    margin: 0 80px;
 }
 
 .love-article {
